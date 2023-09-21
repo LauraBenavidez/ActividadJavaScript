@@ -1,0 +1,50 @@
+h1{
+    text-align:center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    color: whitesmoke;
+    font-weight: 1000000;
+    margin-left: 20px;
+    font-size: 45px;
+    text-shadow: 2px 2px rgb(212, 92, 218);
+    
+}
+
+body {
+    background-image: url('https://lenadesign.org/wp-content/uploads/2020/02/webdiv.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 20px,20px,20px,20px;
+    padding: 20px,20px,20px,20px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Permanent Marker';
+    
+
+}
+
+.contenedor {
+    padding: 100px;
+    color: #ffffff;
+    font-size: 25px;
+    text-shadow: 2px 2px rgb(218, 82, 221);
+    
+}
+
+button {
+    margin-top: -37%;
+    margin-bottom:-6% ;
+    margin-right : auto;
+    margin-left:auto;
+    color: hsl(300, 25%, 98%);
+    font-size: 25px;
+    text-shadow: 2px 2px rgb(216, 56, 216);
+    background-color: #dea2c3; 
+    border: none;
+    color: rgb(251, 249, 249);
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+}
