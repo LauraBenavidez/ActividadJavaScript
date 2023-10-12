@@ -41,9 +41,9 @@ var opc=parseInt(prompt("Ingresa una opción: 1 Area Cuadrado, 2 Area Rectángul
             break;
         case 4:
         // Realizar una suma
-        suma= parseFloat(prompt("ingrese el primer numero"))
+        suma1= parseFloat(prompt("ingrese el primer numero"))
         suma2= parseFloat(prompt("ingrese el segundo numero"))
-        var resultado = suma+suma2;
+        var resultado = suma1+suma2;
         alert ("el resultado de la suma es:" +resultado)
         if(suma != 0){
             document.write("el resultado de la suma es: " +resultado )
