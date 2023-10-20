@@ -1,0 +1,89 @@
+/* Estilos generales */
+body {
+    background-image: url('https://i.pinimg.com/originals/cb/d8/d0/cbd8d0aa2e543de7e299134ac8893266.gif');
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+
+    h1{
+        text-align:center;
+        font-family: 'Josefin Sans', sans-serif;
+        font-family: 'Permanent Marker', cursive;
+        color: rgb(238, 236, 238);
+        font-weight: 1000000;
+        margin-left: 20px;
+        font-size: 45px;
+        text-shadow: 2px 2px rgb(212, 92, 218); /* Cambia el color del título si lo deseas */
+}
+
+h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+/* Formulario de pedido */
+#order-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 400px;
+}
+
+select, input {
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+select {
+    background-color: #f9f9f9;
+}
+
+input {
+    background-color: #f9f9f9;
+}
+
+button {
+    background-color: #a14496;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+/* Resumen del pedido */
+#order-summary {
+    list-style-type: none;
+    padding: 0;
+    font-weight: bold;
+}
+
+.order-item {
+    background-color: #f2f55b;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+/* Total a pagar */
+#total-price {
+    font-weight: bold;
+    font-size: 24px;
+    color: #a14496;
+    
+}
+p{
+    font-size: 30px;
+    color: #333;
+    font-weight: bold;
+}
