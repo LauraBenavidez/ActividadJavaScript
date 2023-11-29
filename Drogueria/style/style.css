@@ -1,0 +1,70 @@
+body {
+    background-image: url('https://i.pinimg.com/originals/f3/06/8c/f3068c195390a519a3e057aa96086bd0.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 10px;
+    padding: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Permanent Marker';
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #1a0596;
+}
+
+h1, h2, h3 {
+    font-family: 'Cinzel Decorative', cursive;
+    color: rgb(143, 10, 143)
+}
+
+button {
+    background-color: #4B0082;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    background-color: #800080;
+    color: rgb(255, 255, 255);
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+select {
+    width: 200px;
+    height: 40px;
+    padding: 10px;
+    border: 1px solid #4B0082;
+    background-color: #f8f8f8;
+}
+
+input[type="number"] {
+    width: 100px;
+    height: 40px;
+    padding: 10px;
+    border: 1px solid #4B0082;
+    background-color: #f8f8f8;
+}
+
+#order-summary {
+    border: 2px solid #4B0082;
+    padding: 20px;
+    width: 400px;
+    margin: 0 auto;
+}
+
+#total-price {
+    color: #4B0082;
+    font-size: 24px;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" href="style/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FarmaVida</title>
+
+</head>
+<body>
+
+    <h1>Bienvenido a tu farmacia de confianza</h1>
+
+    <form id="order-form">
+
+        <!-- Sección de Medicamentos -->
+        <h2>Medicamentos</h2>
+        <label for="select-medicine">Seleccionar medicamento:</label>
+        <select id="select-medicine">
+            <option value="Aspirina">Aspirina</option>
+            <option value="Ibuprofeno">Ibuprofeno</option>
+            <option value="Vitaminas">Vitaminas</option>
+            <option value="Acetaminofen">Acetaminofen</option>
+            <option value="Dextroamfetamina">Dextroamfetamina</option>
+            <option value="Diclofenaco">Diclofenaco</option>
+        </select>
+
+        <label for="medicine-quantity">Cantidad:</label>
+        <input type="number" id="medicine-quantity" value="1" min="1">
+
+        <!-- Sección de Productos de Aseo -->
+        <h2>Productos de Aseo</h2>
+        <label for="select-toiletry">Seleccionar producto de aseo:</label>
+        <select id="select-toiletry">
+            <option value="Pañales">Pañales</option>
+            <option value="Shampoo">Shampoo</option>
+            <option value="Desodorante">Desodorante</option>
+            <option value="Crema hidratante">Crema hidratante</option>
+        </select>
+
+        <label for="toiletry-quantity">Cantidad:</label>
+        <input type="number" id="toiletry-quantity" value="1" min="1">
+
+        <button type="button" id="add-to-order">Agregar al pedido</button>
+    </form>
+
+    <h2>Resumen del Pedido</h2>
+    <div id="order-summary"></div>
+
+    <h3>Total: $<span id="total-price">0.00</span></h3>
+    <script src="js/restaurante.js"></script>
+</body>
+</html>

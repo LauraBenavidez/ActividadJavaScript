@@ -13,6 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
     let total = 0;
     // Al principio, no hemos gastado dinero.
 
+
     orderForm.addEventListener("submit", function (event) {
         // Si intentamos enviar el pedido, detenlo.
         event.preventDefault();
