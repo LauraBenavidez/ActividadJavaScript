@@ -2,49 +2,77 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url('https://blog.vicensvives.com/wp-content/uploads/2018/11/Evolucion-librerias-1-360x240.jpg');
-}
-h1{
+    background-color: rgb(255, 196, 239);
     text-align: center;
-    color: whitesmoke;
-    font-size: 45px;
-    
 }
 
-div {
-    max-width: 400px;
-    margin: 20px auto;
-    padding: 15px;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    background-color: #6ae2c6;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-p {
-    margin: 8px 0;
-}
-
-input {
-    width: 60px;
-    padding: 5px;
-    margin-right: 10px;
-}
-
-button {
+.book-container {
+    margin: 20px;
     padding: 10px;
-    background-color: #007bff;
-    color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.cover-image-libro1,
+.cover-image-libro2 {
+    max-width: 10%;
+    max-height: 10%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.book-info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.book-info label,
+.book-info span {
+    margin-bottom: 5px;
+}
+
+.subtotal {
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+.book-name {
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.total-container {
+    margin: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 0px 0px 10px ;
+    background-color: whitesmoke;
+    padding: 20px;
+}
+
+/* Estilos para los botones de suma y resta */
+button {
+    background-color: #4CAF50;
+    color: white;
     border: none;
-    border-radius: 4px;
+    padding: 8px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
     cursor: pointer;
+    border-radius: 4px;
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #45a049;
 }
 
-#total {
-    font-weight: bold;
-    color: #007bff;
-}
+
